@@ -32,10 +32,10 @@ description: 'Bilanc can be deployed in minutes using Docker Compose. This guid
 
 | Variable                 | Description                                                                                 | Example     |
 | ------------------------ | ------------------------------------------------------------------------------------------- | ----------- |
-| `AI_PROVIDER`            | Choose your AI backend: `openai` (default), `anthropic`, or `google`.                       | `openai`    |
+| `AI_PROVIDER`            | Choose your AI backend: `openai` (default), `anthropic`, or `google-ai`.                    | `openai`    |
 | `OPENAI_API_KEY`         | API key for OpenAI models (required if `AI_PROVIDER=openai`).                               | `sk-...`    |
 | `ANTHROPIC_API_KEY`      | API key for Anthropic (Claude) (required if `AI_PROVIDER=anthropic`).                       | `env-...`   |
-| `GOOGLE_GEMINI_API_KEY`  | API key for Google Gemini (required if `AI_PROVIDER=google`).                               | `AIza...`   |
+| `GOOGLE_API_KEY`         | API key for Google Gemini (required if `AI_PROVIDER=google-ai`).                            | `AIza...`   |
 
 > Only set the API key corresponding to your chosen `AI_PROVIDER`.
 
